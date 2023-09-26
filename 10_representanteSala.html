@@ -7,7 +7,6 @@
     Desenvolva um programa que armazene o voto de cada aluno da sala e apresente o resultado da votação, com o quantitativo de votos e também a porcentagem de votos de cada candidato a representante de sala.
     */
 
-    //ENTRADA
     let representantes = [];
     for( let i = 3; i >= 1; i--){
         let representante = prompt(`Nome do representante? (restam ${i} representantes)`)
@@ -29,11 +28,5 @@
     document.write(`${representantes[0]} recebeu ${rep1} votos, totalizando ${((rep1/quatidadeA)*100).toFixed(2).replace(".",",")}% <br> 
     ${representantes[1]} recebeu ${rep2} votos, totalizando ${((rep2/quatidadeA)*100).toFixed(2).replace(".",",")}% <br>  
     ${representantes[2]} recebeu ${rep3} votos, totalizando ${((rep3/quatidadeA)*100).toFixed(2).replace(".",",")}%`)
-
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
 
 </script>
