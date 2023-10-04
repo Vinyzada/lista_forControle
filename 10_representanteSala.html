@@ -25,6 +25,10 @@
         }
     }
 
+    if(rep1 < rep2 && rep1 < rep3){document.write("O vencedor foi ${representantes[0]}")}
+    else if(rep2 < rep1 && rep2 < rep3){document.write("O vencedor foi ${representantes[1])}")}
+    else if(rep3 < rep2 && rep3 < rep1){document.write("O vencedor foi ${representantes[2]}")} 
+    else{document.write("Houve um empate"")};
     document.write(`${representantes[0]} recebeu ${rep1} votos, totalizando ${((rep1/quatidadeA)*100).toFixed(2).replace(".",",")}% <br> 
     ${representantes[1]} recebeu ${rep2} votos, totalizando ${((rep2/quatidadeA)*100).toFixed(2).replace(".",",")}% <br>  
     ${representantes[2]} recebeu ${rep3} votos, totalizando ${((rep3/quatidadeA)*100).toFixed(2).replace(".",",")}%`)
